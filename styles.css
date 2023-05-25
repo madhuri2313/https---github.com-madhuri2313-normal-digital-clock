@@ -1,0 +1,44 @@
+body {
+    background-color: lightsteelblue;
+    height: 100vh;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#main-section {
+    padding-top: 30px;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    border: 3px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://media0.giphy.com/media/4FgWOByey21VpM9iSX/200w.webp?cid=ecf05e47j6jc17vu89hnmv0bj82erwvul68ag3ypua8nki3h&ep=v1_gifs_search&rid=200w.webp&ct=g");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+
+#heading {
+    background-color: goldenrod;
+    opacity: .6;
+    color: white;
+    text-shadow: 2px 3px 6px black;
+    width: 90%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5 px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#clock {
+
+    padding-top: 80px;
+    color: lemonchiffon;
+    font-size: 60px;
+    text-shadow: 2px 3px 6px black;
+
+}
